@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projects</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2cf8342c96.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- Goals: Fix header text coloring. 
+    Add menu icon to far right when page is smaller. 
+    Menu opens vertical list on right side.  
+
+    Learn more button directs to lower projects section.
+    Each project is collapsible - list appears as titles, with plus icon on far right. When clicked, expands to include description and links, "what I learned" section. Color of title section changes when hovered over.
+
+    Eventually: All projects will be organized by type, with most recent at top of respective list. Only mosts recent will appear on intro page. 
+
+-->
+<body>
+    <div class = "header">
+        <div class = "title header-part">
+            <a href="intro.html">
+                <h1>Hadas Gottlieb</h1>
+                <h2>Front-End Developer</h2>
+            </a>
+        </div>
+        <nav class = "nav header-part">
+            <ul class = "nav-list">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">About</a></li>
+                <li><a href="art.html">Art</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1 class = "projects-title">All Projects</h1>
+    <!-- Eventually allow filtering by language, date finished, etc -->
+    <div class = "projects-page-container">
+        <div class = "projects-list-container">
+            <ul class = "projects-list collapsible">
+                <li class = "project">
+                    <h2 class = "collapsible-header">Gematria Calculator</h2>
+                    <div class = "collapsible-body">
+                        <p>Traditionally, each Hebrew letter has a specific numeric value, which when added together provide extra depth and meaning to Hebrew words. The term for these numeric values is "Gematria". This program allows the user to choose letters, whose combined value will be calculated and displayed.</p>
+                        <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                        <p>What I learned: </p>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://github.com/hadasgottlieb/Gematria-app">Code</a> <br>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://hadasgottlieb.github.io/Gematria-app/">GitHub Pages</a>
+                    </div>
+                
+                </li>
+                <li class = "project">
+                    <h2 class = "collapsible-header">Clicker</h2>
+                    <div class = "collapsible-body">
+                        <p>This is a simple JavaScript program that counts and displays how many times a button is clicked by the user.</p>
+                        <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                        <p>What I learned: </p>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://github.com/hadasgottlieb/Clicker-App">Code</a> <br>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://hadasgottlieb.github.io/Clicker-App/">GitHub Pages</a>
+                    </div>
+                </li>
+                <li class = "project">
+                    <h2 class = "collapsible-header">Addition</h2>
+                    <div class = "collapsible-body">
+                        <p>This is a simple JavaScript program that displays the sum of two input numbers.</p>
+                        <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                        <p>What I learned: </p>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://github.com/hadasgottlieb/Addition-app">Code</a> <br>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://hadasgottlieb.github.io/Addition-app/">GitHub Pages</a>
+                    </div>
+                </li>
+                <li class = "project">
+                    <h2 class = "collapsible-header">Quiz - Purim</h2>
+                    <div class = "collapsible-body">
+                        <p>This is a quiz on the Jewish holiday of Purim. The user answers questions and their score is displayed at the end.</p>
+                        <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                        <p>What I learned: </p>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://github.com/hadasgottlieb/Quiz-3---Purim">Code</a> <br>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://hadasgottlieb.github.io/Quiz-3---Purim/">GitHub Pages</a>
+                    </div>
+                </li>
+                <li class = "project">
+                    <h2 class = "collapsible-header">This Site!</h2>
+                    <div class = "collapsible-body">
+                        <p>This is my portfolio site! Very exciting :)</p>
+                        <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                        <p>What I learned: </p>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://github.com/hadasgottlieb/Portfolio-Site">Code</a><br>
+                        <img src="GitHub-logo.jpg" alt="GitHub logo" class = "logo"><a href="https://hadasgottlieb.github.io/Portfolio-Site/">GitHub Pages</a>
+                    </div>
+                </li>
+            </ul> 
+        </div>
+    </div> 
+    <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src = "index.js"></script>
+</body>
+</html>

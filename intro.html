@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Intro</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2cf8342c96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Goals: Fix header text coloring. 
+    Add menu icon to far right when page is smaller. 
+    Menu opens vertical list on right side.  
+
+    Learn more button directs to lower projects section.
+    Each project is collapsible - list appears as titles, with plus icon on far right. When clicked, expands to include description and links, "what I learned" section. Color of title section changes when hovered over.
+
+    Eventually: All projects will be organized by type, with most recent at top of respective list. Only mosts recent will appear on intro page. 
+
+-->
+<!-- Nav bar -->
+    <div class = "header">
+        <div class = "title header-part">
+            <a href="intro.html">
+                <h1>Hadas Gottlieb</h1>
+                <h2>Front-End Developer</h2>
+            </a>
+        </div>
+        <nav class = "nav header-part">
+            <ul class = "nav-list">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">About</a></li>
+                <li><a href="art.html">Art</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class = "spacing">
+        <!-- <img src="Marmot.jpg" alt="marmot" height= 100px width = 100px> -->
+        <p>Aspiring front-end web developer trying to make the world a better place.</p>
+    </div>
+  
+    
+    <div class = "continue" >
+        <a href="#projects-list-container"><i class="fas fa-chevron-down"></i> See what I'm working on <i class="fas fa-chevron-down"></i></a>
+    </div>
+    <div id = "projects-list-container" class = "projects-list-container">
+        <ul class = "projects-list collapsible">
+            <li class = "project">
+                <h2 class = "collapsible-header">Avigdor Jewelry</h2>
+                <div class = "collapsible-body">
+                    <p>Blurb</p>
+                    <p>Languages used: HTML, CSS, JavaScript, jquery, AJAX?</p>
+                    <p>What I learned: </p>
+                    <i class="fab fa-codepen"></i><br>
+                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Gematria-app">CHANGE THIS</a> <br>
+                    
+                    
+                </div>
+             
+            </li>
+            <li class = "project">
+                <h2 class = "collapsible-header">Quote Generator</h2>
+                <div class = "collapsible-body">
+                    <p>Blurb</p>
+                    <p>Languages used: HTML, CSS, JavaScript, jquery, AJAX?</p>
+                    <p>What I learned: </p>
+                    <i class="fab fa-codepen"></i><br>
+                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Gematria-app">CHANGE THIS</a> <br>
+                    
+                    
+                </div>
+             
+            </li>
+            <li class = "project">
+                <h2 class = "collapsible-header">Hebrew Calculator</h2>
+                <div class = "collapsible-body">
+                    <p>Traditionally, each Hebrew letter has a specific numeric value, which when added together provide extra depth and meaning to Hebrew words. The term for these numeric values is "Gematria". This program allows the user to choose letters, whose combined value will be calculated and displayed.</p>
+                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                    <p>What I learned: </p>
+                    <i class="fab fa-codepen"></i><br>
+                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Gematria-app">Code</a> <br>
+                    
+                </div>
+             
+            </li>
+            <li class = "project">
+                <h2 class = "collapsible-header">Clicker</h2>
+                <div class = "collapsible-body">
+                    <p>This is a simple JavaScript program that counts and displays how many times a button is clicked by the user.</p>
+                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                    <p>What I learned: </p>
+                    <i class="fab fa-codepen"></i><br>
+                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Clicker-App">Code</a> <br>
+
+                </div>
+            </li>
+            <li class = "project">
+                <h2 class = "collapsible-header">Addition</h2>
+                <div class = "collapsible-body">
+                    <p>This is a simple JavaScript program that displays the sum of two input numbers.</p>
+                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                    <p>What I learned: </p>
+                    <i class="fab fa-codepen"></i><br>
+                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Addition-app">Code</a> <br>
+
+                </div>
+            </li>
+            <li class = "project">
+                <h2 class = "collapsible-header">Quiz (scored)</h2>
+                <div class = "collapsible-body">
+                    <p>This is a quiz on the Jewish holiday of Purim. The user answers questions and their score is displayed at the end.</p>
+                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                    <p>What I learned: </p>
+                    <i class="fab fa-codepen"></i><br>
+                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Quiz-3---Purim">Code</a> <br>
+
+                </div>
+            </li>
+            <li class = "project">
+                <h2 class = "collapsible-header">This Site!</h2>
+                <div class = "collapsible-body">
+                    <p>This is my portfolio site! Very exciting :)</p>
+                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
+                    <p>What I learned: </p>
+                    <i class="fab fa-codepen"></i><br>
+                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Portfolio-Site">Code</a><br>
+
+                   
+                </div>
+            </li>
+        </ul> 
+    </div> 
+    <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src = "index.js"></script>
+</body>
+</html>
