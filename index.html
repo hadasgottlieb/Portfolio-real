@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Intro</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/2cf8342c96.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
 <!-- Goals: Fix header text coloring. 
@@ -22,22 +25,22 @@
 <!-- Nav bar -->
     <div class = "header">
         <div class = "title header-part">
-            <a href="intro.html">
+            <a href="index.html">
                 <h1>Hadas Gottlieb</h1>
                 <h2>Front-End Developer</h2>
             </a>
         </div>
         <nav class = "nav header-part">
             <ul class = "nav-list">
-                <li><a href="projects.html">Projects</a></li>
+                <!-- <li><a href="projects.html">Projects</a></li> -->
                 <li><a href="resume.html">About</a></li>
                 <li><a href="art.html">Art</a></li>
             </ul>
         </nav>
     </div>
     <div class = "spacing">
-        <!-- <img src="Marmot.jpg" alt="marmot" height= 100px width = 100px> -->
-        <p>Aspiring front-end web developer trying to make the world a better place.</p>
+        <img src="" alt="">
+        <p>Hi! I'm Hadas. I'm a front-end web developer. <br>Also a mother, an artist, a homebody, an adventurer. <br><br><span style = "font-weight: bold;">I.<br>Learn.<br>Constantly.</span><br><br>See below for my most recent projects. <br>Check out my <a href="resume.html">resume</a>. <br>Also some <a href="art.html">doodles</a>.  </p>
     </div>
   
     
@@ -46,91 +49,74 @@
     </div>
     <div id = "projects-list-container" class = "projects-list-container">
         <ul class = "projects-list collapsible">
-            <li class = "project">
-                <h2 class = "collapsible-header">Avigdor Jewelry</h2>
-                <div class = "collapsible-body">
-                    <p>Blurb</p>
-                    <p>Languages used: HTML, CSS, JavaScript, jquery, AJAX?</p>
-                    <p>What I learned: </p>
-                    <i class="fab fa-codepen"></i><br>
-                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Gematria-app">CHANGE THIS</a> <br>
-                    
-                    
+            <li class = "project avigdor-site">
+                <img src="images/avigdor-logo.jpg" alt="Site logo" width= 100%>
+                <div class = "hover">
+                    <span class = "hover-text">Details</span>
                 </div>
+                <div class = "ltbox-container display-off">
+                    <div class = "ltbox">
+                        <div class = "ltbox-content">
+                            <div class = "ltbox-content-photo">
+                                <img src="images/avigdor-logo.jpg" alt="">
+                            </div>
+                            <div class = "ltbox-content-texts"></div>
+                        </div>
+                        <div class = "ltbox-close"><span><i class="fas fa-times-circle"></i></span></div>
+                    </div>
+                </div>
+                    
+                    <!-- <i class="fab fa-codepen"></i>
+                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Gematria-app"></a>  -->
+                    
+                    
+
+            </li>
+            
+            <li class = "project gematria-app">
+
+                <img src="images/gematria2.jpg" alt="Gematria logo">
+                <div class = "hover">
+                    <span class = "hover-text">Details</span>
+                </div>
+                <div class = "ltbox-container display-off">
+                    <div class = "ltbox">
+                        <div class = "ltbox-content">
+                            <div class = "ltbox-content-photo">
+                                <img src="images/gematria2.jpg" alt="">
+                            </div>
+                            <div class = "ltbox-content-texts">
+                                <i class="fab fa-codepen"></i>
+                                <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Gematria-app"></a>
+                            </div>
+                        </div>
+                        <div class = "ltbox-close"><span><i class="fas fa-times-circle"></i></span></div>
+                    </div>
+                </div>
+                    
+                    
+
              
             </li>
+            
             <li class = "project">
-                <h2 class = "collapsible-header">Quote Generator</h2>
-                <div class = "collapsible-body">
-                    <p>Blurb</p>
-                    <p>Languages used: HTML, CSS, JavaScript, jquery, AJAX?</p>
-                    <p>What I learned: </p>
-                    <i class="fab fa-codepen"></i><br>
-                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Gematria-app">CHANGE THIS</a> <br>
-                    
-                    
+                <img src="" alt="">
+                <div class = "hover">
+                    <span class = "hover-text">Details</span>
                 </div>
-             
-            </li>
-            <li class = "project">
-                <h2 class = "collapsible-header">Hebrew Calculator</h2>
-                <div class = "collapsible-body">
-                    <p>Traditionally, each Hebrew letter has a specific numeric value, which when added together provide extra depth and meaning to Hebrew words. The term for these numeric values is "Gematria". This program allows the user to choose letters, whose combined value will be calculated and displayed.</p>
-                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
-                    <p>What I learned: </p>
-                    <i class="fab fa-codepen"></i><br>
-                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Gematria-app">Code</a> <br>
-                    
-                </div>
-             
-            </li>
-            <li class = "project">
-                <h2 class = "collapsible-header">Clicker</h2>
-                <div class = "collapsible-body">
-                    <p>This is a simple JavaScript program that counts and displays how many times a button is clicked by the user.</p>
-                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
-                    <p>What I learned: </p>
-                    <i class="fab fa-codepen"></i><br>
-                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Clicker-App">Code</a> <br>
-
-                </div>
-            </li>
-            <li class = "project">
-                <h2 class = "collapsible-header">Addition</h2>
-                <div class = "collapsible-body">
-                    <p>This is a simple JavaScript program that displays the sum of two input numbers.</p>
-                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
-                    <p>What I learned: </p>
-                    <i class="fab fa-codepen"></i><br>
-                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Addition-app">Code</a> <br>
-
-                </div>
-            </li>
-            <li class = "project">
-                <h2 class = "collapsible-header">Quiz (scored)</h2>
-                <div class = "collapsible-body">
-                    <p>This is a quiz on the Jewish holiday of Purim. The user answers questions and their score is displayed at the end.</p>
-                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
-                    <p>What I learned: </p>
-                    <i class="fab fa-codepen"></i><br>
-                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Quiz-3---Purim">Code</a> <br>
-
-                </div>
-            </li>
-            <li class = "project">
-                <h2 class = "collapsible-header">This Site!</h2>
-                <div class = "collapsible-body">
-                    <p>This is my portfolio site! Very exciting :)</p>
-                    <p>Languages used: HTML, CSS, JavaScript, jquery</p>
-                    <p>What I learned: </p>
-                    <i class="fab fa-codepen"></i><br>
-                    <i class="fab fa-github"></i><a href="https://github.com/hadasgottlieb/Portfolio-Site">Code</a><br>
-
-                   
+                <div class = "ltbox-container display-off">
+                    <div class = "ltbox">
+                        <div class = "ltbox-content">
+                            <div class = "ltbox-content-photo"></div>
+                            <div class = "ltbox-content-texts"></div>
+                        </div>
+                        <div class = "ltbox-close"><span><i class="fas fa-times-circle"></i></span></div>
+                    </div>
                 </div>
             </li>
         </ul> 
     </div> 
+    <div class = "footer"></div>
     <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src = "index.js"></script>
 </body>
