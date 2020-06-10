@@ -1,22 +1,48 @@
 
 
-//function needs to toggle the active class on the collapsible header, so the color changes when it is clicked. It also needs to change the display for the collapsible body div (if on, turn off, vice versa)
+function ltbox3() {
+    //on click details, ltbox is emptied, and ltbox container toggles to display: block, and clicked item info is displayed in ltbox. 
+    $(".avigdor-site .hover-text").on("click", function() {
+        console.log("avigdor ltbox function ran");
+        $(".ltbox-overlay").toggleClass("invisible");
+        $(".ltbox-avigdor").toggleClass("invisible"); //should turn on lightbox
 
-function collapseProjects() {
-    console.log(`collapseProjects ran.`);
-    let projects = document.getElementsByClassName("collapsible-header");
-    for(let i = 0; i < projects.length; i++) {
-        projects[i].addEventListener("click", function() {
-            console.log(`project clicked.`);
-            this.classList.toggle("active");
-            let projectBody = this.nextElementSibling;
-            if (projectBody.style.display === "block") {
-                projectBody.style.display = "none";
-            } else {
-                projectBody.style.display = "block";
-            };
-        });
-    };
+    });
+    $(".gematria-app .hover-text").on("click", function() {
+        console.log("gematria ltbox function ran");
+        $(".ltbox-overlay").toggleClass("invisible");
+        $(".ltbox-gematria").toggleClass("invisible"); //should turn on lightbox
+
+    });
+    $(".this-site .hover-text").on("click", function() {
+        console.log("thisSite ltbox function ran");
+        $(".ltbox-overlay").toggleClass("invisible");
+        $(".ltbox-thisSite").toggleClass("invisible"); //should turn on lightbox
+
+    });
+};     
+
+
+
+function ltboxClose() {
+
+    //on click X, ltbox container toggles to display: none;
+    $(".ltbox-avigdor-close").on("click", function() {
+        console.log("ltboxClose avigdor ran");
+        $(".ltbox-overlay").toggleClass("invisible");
+        $(".ltbox-avigdor").toggleClass("invisible"); //should turn off lightbox
+    });
+    $(".ltbox-gematria-close").on("click", function() {
+        console.log("ltboxClose gematria ran");
+        $(".ltbox-overlay").toggleClass("invisible");
+        $(".ltbox-gematria").toggleClass("invisible"); //should turn off lightbox
+    });
+    $(".ltbox-thisSite-close").on("click", function() {
+        console.log("ltboxClose thisSite ran");
+        $(".ltbox-overlay").toggleClass("invisible");
+        $(".ltbox-thisSite").toggleClass("invisible"); //should turn off lightbox
+    });
 };
 
-$(collapseProjects);
+$(ltbox3);
+$(ltboxClose);
